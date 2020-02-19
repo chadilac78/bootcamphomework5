@@ -1,0 +1,143 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.timer-container{
+    background-color: white;
+    float: right;
+}
+.container{
+    background-color: blue;
+    width: 800px;
+    max-width: 80%;
+    height: 800px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px;
+}
+#question {
+    color: white;
+}
+
+.btn-lrg{
+    padding: 25px;
+}
+
+.start-btn{
+background-color: black;
+margin-top: 15px;
+padding: 25px;
+width: 50%;
+color: white;
+margin-bottom: 15px;
+display: flex;
+justify-content: center;
+float: right;
+margin-right: 5px;
+
+
+}
+
+ .next-btn {
+        background-color: black;
+ margin-top: 15px;
+ padding: 25px;
+ width: 50%;
+ color: white;
+ margin-bottom: 15px;
+ display: flex;
+ justify-content: center;
+
+ 
+}
+
+  .high-btn {
+    background-color: black;
+    margin-top: 15px;
+    padding: 25px;
+    width: 50%;
+    color: white;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    float: none;;
+
+    
+}
+
+.controls{
+ 
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+
+}
+
+.hide {
+    display: none;
+}
+#score-container{
+    background-color: yellow;
+    float: left;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: cornsilk;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    color: cornsilk;
+}
+#question {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+h3 {
+    text-align: center;
+    color: white;  
+}
+.input-group-prepend{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+.form-control {
+    width: 200px;
+    height: 100px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 50px;
+}
+input {
+    width: 75%;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
