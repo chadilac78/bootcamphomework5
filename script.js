@@ -21,6 +21,7 @@ function setTime() {
   var timerInterval = setInterval(function () {
     secondsLeft--;
     timeEl.textContent = secondsLeft + " until your game is over!!";
+
     if (secondsLeft <= 0) {
       timeEl.classList.add('hide');
       clearInterval(timerInterval);
@@ -82,8 +83,7 @@ function startGame() {
   console.log('started');
   //HIDES THE START BUTTON
   startButton.classList.add('hide')
-  //hides the high scores button
-  highButton.classList.add('hide')
+
 
 
   //RANDOMIZES THE QUESTIONS IN THE QUESTION INDEX 
@@ -107,6 +107,7 @@ function setNextQuestion() {
 
 //showing the answer buttons
 function showQuestion(questions) {
+
   questionElement.innerText = questions.question;
   questions.answers.forEach(answers => {
     var button = document.createElement('button')
